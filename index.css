@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: O;
+    box-sizing: border-box;
+
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(background.png);
+    background-position: center;
+    background-size: cover;
+    padding: 0 7%;
+    color: #fff;
+}
+nav{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 35px;
+    cursor: pointer;
+}
+nav ul{
+    flex: 1;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+color: white;
+text-decoration: none;
+}
+nav .btn{
+    color: white;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+@media screen and (max-width : 686px) {
+    .logo{
+        display: none;
+    }
+    nav ul{
+    margin-left: -46px  ; 
+   }
+    nav ul li{
+
+        font-size: 12px;
+        margin: 9px 9px;
+    } 
+    nav .btn{
+        font-size: 16px;
+        padding: 10px 15px;
+        border-radius: 20px;
+    }
+}
+/* nav end*/
+/*contente start-------------*/
+.content{
+    margin-top: 12%;
+}
+.content h1{
+    font-size: 88px;
+    margin-bottom: 15px;
+}
+.content h1 span{
+color: #FF960B;
+}
+.content p{
+    line-height: 22px;
+    font-size: 14px;
+}
+.content .btn{
+    display: inline-block;
+    margin-top: 30px;
+    background: #FF960B;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+@media screen and (max-width : 686px) {
+    .content h1{
+        font-size: 50px;
+    }
+    .content .btn{
+        padding: 13px 17px;
+    }
+    .content .btn a{
+        font-size: 15px;
+    } 
+}
+
+/* icons started*/
+.icon-list{
+    position: absolute;
+    right: 10%;
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+.coin{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 0 15px;
+    color: #FF960B;
+    border: 1px solid #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+}
+.coin img{
+    width: 40px;
+    margin-right: 10px;
+}
+.coin h3{
+    color: #fff;
+    margin-bottom: 5px;
+}
+@media screen and (max-width : 686px) {
+.coin{
+    display:block;
+    padding: 13px 16px;
+    margin: 0 10px;
+    font-size: 12px;
+}
+.coin img{
+    width: 26px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 6px;
+    margin-bottom: 3px;
+}
+}
